@@ -86,3 +86,8 @@ Then, place the file in the `p2_continuous-control/` folder in the DRLND GitHub 
 
 (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Crawler/Crawler_Linux_NoVis.zip) to obtain the "headless" version of the environment.  You will **not** be able to watch the agent without enabling a virtual screen, but you will be able to train the agent.  (_To watch the agent, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above._)
 
+# Code 
+Continuous_control.ipynb is about the training process. 
+Model.py is the Neural Network model architecture that contains both Actor and Critic networks.
+ddpg_agent.py defines the agent object.
+checkpoint30_actor.pth and checkpoint30_critic.pth are model weights for actor and critic network that achieve average score of 30+ over 100 episodes. 
