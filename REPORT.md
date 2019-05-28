@@ -1,4 +1,4 @@
-### Report
+# Report
 ## RL algorithm
 
 For this problem I use Deep Deterministic Policy Gradient (DDPG) algorithm[1]. I use 20-agent environment. These agent share the same replay buffer and has no other kinds of information sharing during the training process. 
