@@ -88,6 +88,9 @@ Then, place the file in the `p2_continuous-control/` folder in the DRLND GitHub 
 
 # Code 
 Continuous_control.ipynb is about the training process. 
+
 Model.py is the Neural Network model architecture that contains both Actor and Critic networks.
+
 ddpg_agent.py defines the agent object.
-checkpoint30_actor.pth and checkpoint30_critic.pth are model weights for actor and critic network that achieve average score of 30+ over 100 episodes. 
+
+checkpoint_actor30.pth and checkpoint_critic30.pth are model weights for actor and critic network that achieve average score of 30+ over 100 episodes. 
