@@ -10,7 +10,7 @@ The critic Network has 2 hidden layers with the same model atchitecture. The onl
 USe Adam optimized to optimize both Actor and Critic Network.
 
 Hyperparameters:
-BUFFER_SIZE = int(1e5)  # replay buffer size
+BUFFER_SIZE = int(1e5)  # replay buffer size<br/>
 BATCH_SIZE = 128        # minibatch size
 GAMMA = 0.99            # discount factor
 TAU = 1e-3              # for soft update of target parameters
