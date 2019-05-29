@@ -1,7 +1,7 @@
 # Report
 ## RL algorithm
 
-For this problem I use Deep Deterministic Policy Gradient (DDPG) algorithm[1]. I use 20-agent environment. These agent share the same replay buffer and has no other kinds of information sharing during the training process. 
+For this problem I use Deep Deterministic Policy Gradient (DDPG) algorithm[1]. DDPG algorithm uses two function approximation. One function to approximate the policy gradient, whose input is the current state and output is the action. One function to approximate the value function, which takes state and action as the input and returns the expected value of the state-action pair. DDPG algorithm successfully resolved the issue that exact Q-value can not be calculated when state and/or action are in continuous space. In this case, I use 20-agent environment. These agent share the same replay buffer and has no other kinds of information sharing during the training process. 
 
 The actor network has 2 hidden layers, both fully connected and with 400 and 300 neurons respectively. The network use ReLu as non-linear activation function. THe output layers use Tanh as the activation function and return a vector of length 4. 
 
